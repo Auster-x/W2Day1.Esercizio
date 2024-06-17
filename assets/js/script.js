@@ -25,19 +25,19 @@ e, con le dovute aggiunte, come comportarsi di conseguenza.
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myName = "Michelepaolo"
-console.log(myName)
+const myName = "Michelepaolo";
+console.log(myName);
+console.log("Michelepaolo");
+
+// Avevo inizialmente inserito let come variabile, in seguito modificata in const per l'esercizio 4
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
-let myNumber = 12
-let myNumber1 = 20
-let myNumber1 += myNumber
+let myNumber = 12;
+let myNumber1 = 20;
+let myNumber1 += myNumber;
 console.log("risultato: " = myNumber1)
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -50,13 +50,20 @@ let x = 12
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let myName = "Renzi"
+console.log(myName)
+
+let verify = myName
+console.log("Il valore di myName è:" + verify)
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let myNumber2 = 4
+let x -= myNumber2
+console.log("risultato: " = x)
+
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -64,4 +71,9 @@ let x = 12
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john"
+let name2 = "John"
+let verify = (name1===name2)
+console.log()
+
+
